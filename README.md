@@ -27,3 +27,32 @@ El principal objetivo de este desafío es fortalecer las habilidades en lógica 
 1. Clona el repositorio en tu máquina local:
    ```bash
    git clone https://github.com/carlo55anchez/Amigo-Secreto.git
+   ```
+
+2. Navega al directorio del proyecto:
+   ```bash
+   cd Amigo-Secreto
+   ```
+
+3. Abre el archivo `index.html` en tu navegador para ver la aplicación en funcionamiento.
+
+## Estructura del proyecto
+
+- `index.html`: Archivo HTML con la estructura de la página.
+- `style.css`: Estilos CSS para la aplicación.
+- `app.js`: Lógica de JavaScript que maneja el comportamiento de la aplicación.
+- `assets/`: Carpeta que contiene imágenes utilizadas en la aplicación.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una rama nueva (`git checkout -b nombre-de-tu-rama`).
+3. Realiza tus cambios y haz un commit (`git commit -am 'Añadir nueva funcionalidad'`).
+4. Haz push a tu rama (`git push origin nombre-de-tu-rama`).
+5. Abre un Pull Request.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
