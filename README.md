@@ -1,58 +1,36 @@
-# Amigo Secreto
+# Amigo Secreto 🎁
 
-Este proyecto es una aplicación web simple para organizar un juego de "Amigo Secreto". Los usuarios pueden ingresar los nombres de los participantes y luego realizar un sorteo aleatorio para asignar el amigo secreto de cada uno. La aplicación fue desarrollada con HTML, CSS y JavaScript.
+Una aplicación web sencilla para organizar un divertido juego de **Amigo Secreto**. Los usuarios pueden agregar nombres de los participantes, ver una lista actualizada, y realizar un sorteo aleatorio para asignar a cada persona un amigo secreto.
 
-## Descripción
+---
 
-El principal objetivo de este desafío es fortalecer las habilidades en lógica de programación. El proyecto permite a los usuarios:
+## ✨ Características principales
 
-- Ingresar nombres de amigos.
-- Ver una lista de amigos agregados.
-- Realizar un sorteo aleatorio para asignar un amigo secreto.
+- **Agregar nombres:** Los usuarios pueden ingresar los nombres de los participantes mediante un campo de texto y un botón de "Añadir".
+- **Lista dinámica:** Los nombres ingresados se muestran automáticamente en una lista visible en la página.
+- **Sorteo aleatorio:** Al hacer clic en el botón "Sortear amigo", la aplicación selecciona aleatoriamente un participante y muestra el resultado.
+- **Validación de entrada:** Se asegura de que no se puedan agregar nombres vacíos mostrando un mensaje de alerta.
 
-## Tecnologías utilizadas
+---
 
-- **HTML**: Estructura básica de la página.
-- **CSS**: Estilo y diseño de la interfaz de usuario.
-- **JavaScript**: Lógica para agregar amigos a la lista, mostrar la lista y realizar el sorteo aleatorio.
+## 🛠️ Tecnologías utilizadas
 
-## Instrucciones de uso
+- **HTML:** Estructura de la página.
+- **CSS:** Estilo visual y diseño.
+- **JavaScript:** Lógica para manejar la lista de participantes y el sorteo.
 
-1. **Agregar amigos**: Escribe el nombre de un amigo en el campo de texto y haz clic en el botón "Añadir" para agregarlo a la lista.
-2. **Ver lista de amigos**: La lista de amigos se actualizará automáticamente en el DOM a medida que se agregan nombres.
-3. **Realizar el sorteo**: Haz clic en el botón "Sortear amigo" para seleccionar aleatoriamente un amigo secreto y mostrar el resultado en la lista de resultados.
+---
 
-## Instalación
+## 📋 Requisitos técnicos
 
-1. Clona el repositorio en tu máquina local:
+- Un navegador web moderno como Chrome, Firefox o Edge.
+- No se requiere instalación de dependencias ni frameworks adicionales.
+
+---
+
+## 🚀 Cómo usar
+
+1. **Clona el repositorio:**
    ```bash
    git clone https://github.com/carlo55anchez/Amigo-Secreto.git
    ```
-
-2. Navega al directorio del proyecto:
-   ```bash
-   cd Amigo-Secreto
-   ```
-
-3. Abre el archivo `index.html` en tu navegador para ver la aplicación en funcionamiento.
-
-## Estructura del proyecto
-
-- `index.html`: Archivo HTML con la estructura de la página.
-- `style.css`: Estilos CSS para la aplicación.
-- `app.js`: Lógica de JavaScript que maneja el comportamiento de la aplicación.
-- `assets/`: Carpeta que contiene imágenes utilizadas en la aplicación.
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor sigue estos pasos:
-
-1. Haz un fork del repositorio.
-2. Crea una rama nueva (`git checkout -b nombre-de-tu-rama`).
-3. Realiza tus cambios y haz un commit (`git commit -am 'Añadir nueva funcionalidad'`).
-4. Haz push a tu rama (`git push origin nombre-de-tu-rama`).
-5. Abre un Pull Request.
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
